@@ -1,0 +1,14 @@
+body{
+  background: #f00;
+  line-height: 30px;
+}
+h1, h2{
+  font-family: "Arial", sans-serif;
+  line-height: 30px;
+  text-align: center;
+}
+
+table{
+  width: 728px;
+  margin: 0px auto;
+}
