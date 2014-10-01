@@ -72,4 +72,4 @@
   )
 
 (defn -main []
-  (run-jetty app {:port 8080}))
+  (run-jetty app {:port (Integer/parseInt (or (System/getenv "PORT") "5000"))}))

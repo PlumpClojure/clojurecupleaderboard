@@ -7,4 +7,6 @@
                  [com.cognitect/transit-clj "0.8.259"]
                  [hiccup "1.0.5"]
                  [ring "1.3.1"]
-                 [compojure "1.1.9"]])
+                 [compojure "1.1.9"]]
+  :main clojurecup-leaderboard.core
+  )
